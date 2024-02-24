@@ -1,11 +1,11 @@
 import React from 'react';
-import HeroSection from './pages/hero-section/hero';
+import SignForm from "./pages/signForm/index";
 
 
 function App() {
   return (
        <React.Fragment>
-        <HeroSection />
+        <SignForm/>
        </React.Fragment>
   );
 }
