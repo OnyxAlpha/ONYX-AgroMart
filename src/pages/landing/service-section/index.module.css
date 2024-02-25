@@ -1,0 +1,103 @@
+.section{
+    margin: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+  }
+
+
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 80px;
+
+  }
+  
+  .services .fe_box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+  
+  .services .fe_box img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .services .fe_box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+  }
+  
+  .services .fe_box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #131515;
+    background-color: rgb(151, 152, 152);
+    cursor: pointer;
+  }
+  
+  .services .fe_box:nth-child(2) h6 {
+    background-color: rgb(108, 157, 179);
+  }
+  .services .fe_box:nth-child(3) h6 {
+    background-color: rgb(248, 191, 77);
+  }
+  .services .fe_box:nth-child(4) h6 {
+    background-color: rgb(247, 93, 51);
+  }
+  .services .fe_box:nth-child(5) h6 {
+    background-color: rgb(200, 128, 2);
+  }
+  .services .fe_box:nth-child(6) h6 {
+    background-color: #1fbc00;
+  }
+
+  .border {
+    height: 1px;
+    background-color: #00BE5B;
+    margin: 10px 200px;
+  }
+  
+  
+
+  
+/* Media Query */
+@media (max-width: 799px){
+    .services {
+      padding: 0 40px;
+      justify-content: center;
+    }
+    
+    .services .fe_box {
+      margin: 15px 15px;
+    }
+    
+    }
+    
+    
+    
+    
+    @media (max-width: 477px){
+    
+    .services .fe_box {
+      width: 155px;
+      /* margin: 0 0 15px 0; */
+    }
+    
+    .services {
+    padding: 20px;
+    /* justify-content: space-between; */
+    }
+    }    
