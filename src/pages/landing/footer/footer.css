@@ -1,9 +1,9 @@
-.section_padding{
+.footer-section{
     padding: 4rem 4rem;
 }
 
 .footer{
-    background-color: #111;
+    background-color: #2d2d32;
 }
 
 .footer{
@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 
-.footer-links{
+.footer-link{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -22,7 +22,7 @@
     margin-bottom: 2rem;
 }
 
-.footer-links_div{
+.footer-link-div{
     width: 150px;
     margin: 1rem;
     display: flex;
@@ -32,7 +32,7 @@
 }
 
 a {
-    color: #111;
+    color: rgb (175, 175, 179);
     text-decoration: none;
 }
 
@@ -45,10 +45,16 @@ a {
     width: 80%;
 }
 
-.footer-links_div h4{
+.footer-link-div h4{
     font-size: 14px;
+    line-height: 17px;
+    margin: 0.9rem ;
+}
+
+.footer-link-div p{
+    font-size: 12px;
     line-height: 15px;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 ;
     cursor: pointer;
 }
 
@@ -59,13 +65,13 @@ a {
     margin-top: 0.2rem;
 }
 
-.footer-below-links{
+.footer-below-link{
     display: flex;
     flex-direction: row;
 }
 
-.footer-below-links p{
-    font-size: 1.3px;
+.footer-below-link p{
+    font-size: 13px;
     line-height: 15px;
     margin-left: 2rem;
     color: white;
@@ -80,38 +86,38 @@ hr{
 .footer-copyright p{
     font-size: 13px;
     line-height: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
 @media screen and (max-width:850px) {
-    .footer_heading h1{
+    .sb_footer-heading h1{
         font-size: 44px;
         line-height: 50px;
     }
 }
 
 @media screen and (max-width:550px) {
-    .footer-heading h1{
+    .sb_footer-heading h1{
         font-size: 34px;
         line-height: 42px;
     }
 
-    .footer-links div{
+    .sb_footer-link div{
         margin: 1rem 0;
     }
     
-    .footer-btn p{
+    .sb_footer-btn p{
         font-size: 14px;
         line-height: 20px;
     }
     
-    .footer-below{
+    .sb_footer-below{
         flex-direction: column;
         justify-content: left;
     }
     
-    .footer-below-links{
+    .sb_footer-below-link{
         margin-left: 0rem;
         margin-top: 1rem;
     }    
@@ -119,8 +125,12 @@ hr{
 }
 
 @media screen and (max-width:400px){
+    .sb_footer-heading h1{
+        font-size:27px ;
+        line-height: 38px;
+    }
 
     
-}
+} 
 
 
