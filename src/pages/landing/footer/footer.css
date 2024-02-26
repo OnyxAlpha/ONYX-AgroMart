@@ -1,9 +1,9 @@
-.footer-section_padding{
+.footer-section{
     padding: 4rem 4rem;
 }
 
 .footer{
-    background-color: #111;
+    background-color: rgb(63, 62, 62);
 }
 
 .footer{
@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 
-.footer-links{
+.footer-link{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -20,9 +20,10 @@
     width: 100%;
     text-align: left;
     margin-bottom: 2rem;
+    color: rgb(3, 36, 3);
 }
 
-.footer-links_div{
+.footer-link_div{
     width: 150px;
     margin: 1rem;
     display: flex;
@@ -31,8 +32,8 @@
     color: white;
 }
 
-a {
-    color: #111;
+.footer-link a {
+    color: wheat;
     text-decoration: none;
 }
 
@@ -41,11 +42,11 @@ a {
     flex-direction: row;
 }
 
-.socialicon img{
+.socialicon a{
     width: 80%;
 }
 
-.footer-links_div h4{
+.footer-link_div h4{
     font-size: 14px;
     line-height: 15px;
     margin: 0.5rem 0;
@@ -59,12 +60,12 @@ a {
     margin-top: 0.2rem;
 }
 
-.footer-below-links{
+.footer-below-link{
     display: flex;
     flex-direction: row;
 }
 
-.footer-below-links p{
+.footer-below-link p{
     font-size: 1.3px;
     line-height: 15px;
     margin-left: 2rem;
@@ -84,29 +85,7 @@ hr{
     font-weight: 600;
 }
 
-.socialicon a{
-    text-decoration: none;
-    padding: 10px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 50%;
-}
-.socialicon a i{
-    font-size: 2em;
-    color:#111;
-    opacity: 0.9;
-    transition: 0.5s;
-}
-.socialicon a:hover{
-    background-color: #111;
-    transition: 0.5s;
-}
-.socialicon a:hover i{
-    color: white;
-    transition: 0.5s;    
-}
-
-/* @media screen and (max-width:850px) {
+@media screen and (max-width:850px) {
     .footer_heading h1{
         font-size: 44px;
         line-height: 50px;
@@ -143,6 +122,6 @@ hr{
 @media screen and (max-width:400px){
 
     
-} */
+}
 
 
