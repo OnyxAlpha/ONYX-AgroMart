@@ -3,10 +3,10 @@ import styles from "./index.module.css";
 
 
 
-const footer=()=>{
+const Footer=()=>{
     return(
         <div className="footer">
-            <div className="sb_footer section_padding">
+            <div className="footer-section_padding">
                 <div className="footer-link">
                     <div className="footer-link-div">
                         <h4>Customer Services </h4>
@@ -84,4 +84,4 @@ const footer=()=>{
     )
 }
 
-export default footer; 
+export default Footer; 
