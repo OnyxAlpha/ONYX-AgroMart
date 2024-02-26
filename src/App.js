@@ -1,15 +1,14 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import { Navbar } from "./pages/landing/header/index";
-import { Landing } from "./pages/landing/landing";
-import { About } from "./pages/about/index";
-import { Products } from "./pages/products/index";
-import { Signup } from "./pages/signup/index";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Navbar from "./pages/landing/header/index";
+import Landing from "./pages/landing/landing";
+import About from "./pages/about/index";
+import Products from "./pages/products/index";
+import Signup  from "./pages/signup/index";
 
 function App() {
   return (
-   <>
-    <Router>;
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
@@ -18,7 +17,6 @@ function App() {
         <Route path="/signup" element={<Signup />} />
       </Routes>
     </Router>
-   </>
   );
 }
 

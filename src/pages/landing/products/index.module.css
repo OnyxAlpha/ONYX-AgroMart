@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    padding: 20px 100px;
+}
+  
+  .products h3 {
+    font-size: 1.5rem;
+    padding-bottom: 70px;
+  }
+  
+  .product_card h4 {
+      color: rgb(0, 102, 0);
+      margin-bottom: 20px;
+    }
+
+    .product_text_section{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2px;
+    }
+    
+  
+  .product_card img {
+    width: 300px;
+    height: 300px;
+    transition: 0.5s ease;
+  }
+  
+  .product_main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    text-align: center;
+  }
+  
+  .product_card {
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(44, 43, 43, 0.6);
+    transition: background 0.5s, transform 0.5s;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .product_card:hover img{
+      transform: translateY(-10px);
+      transform: scale(1.1);
+      cursor: pointer;
+  }
+
+  .button{
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    font-size: 1rem;
+    background-color: rgb(30, 112, 30);
+    color: white;
+    transition: 0.5s ease;
+  }
+
+  .button:is(:hover, :focus){
+    background-color: rgb(25, 85, 25);
+    color: rgb(183, 248, 183);
+    cursor: pointer;
+  }
+  
