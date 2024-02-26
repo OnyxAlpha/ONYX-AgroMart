@@ -1,26 +1,31 @@
 .topItems {
     display: flex;
     justify-content:space-between;
-    background-color: rgb(176, 216, 176);
-    padding: 20px 50px;
-    height: 10vh;
+    background-color: rgb(225, 234, 228);
+    padding: 20px 30px;
+    height: 9vh;
+    position: fixed;
+    width: 95.3%;
 }
 
 .navLinks ul {
     display: flex;
     list-style-type: none;
     gap: 40px;
-    font-size: 17px;
-    font-weight: bold;
-    color: rgb(2, 65, 2);
     cursor: pointer;
 }
 
-.navLinks ul a:hover {
-    border-bottom: 2px solid white;
+.navLinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
 }
 
-button {
+.navLinks ul a:hover {
+    color: rgb(86, 190, 86);
+}
+
+.signUp button {
     padding: 5px;
     background-color: white;
     color: rgb(2, 65, 2);
@@ -29,10 +34,16 @@ button {
     font-weight: bold;
     width: 80px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 12px;
 }
 
 button:hover {
     background-color: rgb(235, 226, 226);
+}
+
+.appLogo {
+    margin-top: -30px;
+    margin-left: 30px;
+    width: 110px;
 }

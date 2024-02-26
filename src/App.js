@@ -1,11 +1,12 @@
 import React from "react";
 
 import Header from "./pages/landing/header";
+import About from "./pages/about";
 
 function App() {
   return (
     <React.Fragment>
-      <Header/>
+      <About/>
     </React.Fragment>
   );
 }
