@@ -1,14 +1,19 @@
 import React from 'react'
-import Hero from './hero/index';
-import Products from './products/index'
-import Footer from './footer/index';
+import {HeroSection} from './hero-section/index';
+import {ProductsSection} from './products-section/index'
+import {FooterSection} from './footer-section/index';
+import { ServiceSection } from './service-section';
+import { NewsLetterSection } from './newsletter-section';
+
 
 function Landing () {
   return (
     <section>
-        <Hero />
-        <Products />
-        <Footer />
+        <HeroSection />
+        <ServiceSection />
+        <ProductsSection />
+        <NewsLetterSection />
+        <FooterSection />
     </section>
   )
 }

@@ -1,0 +1,132 @@
+.center{
+  background-image: url("../../../assets/canned-hero.png");
+  height: 100vh;
+  width: 100%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: top 75% right -190px;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #e4f3e3;
+  font-size: 1.9rem;
+}
+
+.button{
+    padding: 8px 48px;
+    border-radius: 10px;
+    background-color: #00BE5B;
+    color: #fff;
+    border: none;
+}
+
+.button:is(:hover, :focus){
+    background-color: #007237;
+    color: #ffffff;
+}
+
+.carousel{
+    color: white;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(50, 73, 57, 0.5) */
+    /* ) */
+}
+
+.carousel img{
+    width: 100%;
+    height: 740px;
+}
+
+.carousel h5, .carousel p{
+    color: #090909;
+    font-size: 1.5rem;
+}
+
+.carousel_caption{
+    text-align: center;
+}
+
+
+
+/* Media Query */
+@media (max-width: 990px){
+    .center {
+      padding: 0px 40px;
+      background-position: top 40% right -30%;
+      font-size: 1.2rem;
+    }
+
+    button{
+        padding: 6px 38px;
+    }
+
+    .carousel img{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    }
+    
+    
+
+@media (max-width: 799px){
+    .center {
+      height: 80vh;
+      padding: 0px 40px;
+      background-position: top 40% right -60%;
+      font-size: 1rem;
+      background-size: 70%;
+    }
+
+    button{
+        padding: 8px 48px;
+        border-radius: 10px;
+        background-color: #00BE5B;
+        color: #fff;
+        border: none;
+    }
+    .text_div{
+        background-color: #00be5c0b;
+        padding: 50px 50px 50px 10px;
+        border-radius: 20px;
+    }
+    }
+
+
+
+    @media (max-width: 477px){
+      .center {
+        padding: 0 20px;
+        background-position: 90%;
+        background-position: top 10% right -400px;
+        background-size: 700px;
+        justify-content:flex-start;
+         font-size: 0.5rem;
+    }
+    .text_div{
+        background-color: #00be5c39;
+        padding: 50px 50px 50px 10px;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+
+    .text_div p{
+        font-weight: 800;
+        color: rgb(21, 20, 20);
+    }
+
+    .carousel h5, .carousel p{
+        color: rgb(34, 38, 37);
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
+    .carousel{
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)
+        );
+    }
+    
+
+    }
