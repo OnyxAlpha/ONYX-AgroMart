@@ -8,25 +8,27 @@ export const HeroSection = () => {
     <>
 
     <section className={styles.carousel}>
-       
+       <div>
+        <p>Text lorem50</p>
+       </div>
     <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={canned} class="d-block w-100" alt="..."/>
+      <img src={canned} class="w-100" alt="..."/>
       <div className={styles.carousel_caption} class="carousel-caption d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={canned} class="d-block w-100" alt="..." />
+      <img src={canned} class="w-100" alt="..." />
       <div  className={styles.carousel_caption} class="carousel-caption d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={canned} class="d-block w-100" alt="..." />
+      <img src={canned} class="w-100" alt="..." />
       <div  className={styles.carousel_caption} class="carousel-caption d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
