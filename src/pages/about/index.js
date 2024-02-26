@@ -15,14 +15,14 @@ function About() {
         </section>
 
         <section className={styles.secondSection}>
-            <div>
+            <div className={styles.sec2text}>
                 <h1>Welcome to AgroMart</h1>
                 <p>Here, we bridge the gap between buyers and sellers, enabling reach and access to a wide range of high quality agricultural products delivered directly at your doorstep.</p>
 
                 <h1>Our Mission</h1>
                 <p>Our mission is to offer users the access to agricultural products by providing sellers a platform to showcase their products and expand their market, whiles offering buyers the freshest produce online.</p>
             </div>
-            <div><img src={trolley} alt="a trolley" /></div>
+            <div><img src={trolley} className={styles.about_img} alt="a trolley" /></div>
         </section>
 
         <section className={styles.thirdSection}>
@@ -82,7 +82,10 @@ function About() {
                        <input type="email" id="email" name="email" placeholder="Enter email" className={styles.nameEmail}/><br/>
 
                        <input type="text" id="subject" name="subject" placeholder="Enter subject" className={styles.subject}/><br/>
-                       <input type="text" id="msg" name="msg" placeholder="Message" className={styles.message}/>
+                       {/* <input type="text" id="msg" name="msg" placeholder="Message" /> */}
+                       <textarea name="" id=""
+                       placeholder="Your Message"
+                       className={styles.message}></textarea>
                     </form>
                     <button className={styles.sendBtn}>SEND</button>
                 </div>
@@ -91,8 +94,8 @@ function About() {
         </section>
 
         <section className={styles.location}>
-            <h1>x</h1>
-            <p>dyguysyhg</p>
+            <h1>Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.474003742265!2d-0.15429542603023783!3d5.6443429327571355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b550b4b1287%3A0x5bfe4abfd88d302b!2sMEST%20Africa!5e0!3m2!1sen!2sgh!4v1708957868601!5m2!1sen!2sgh" width="400" height="350" className={styles.map} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         </main>
     );

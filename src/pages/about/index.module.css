@@ -18,18 +18,28 @@ main {
 }
 
 .secondSection {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 150px;
     grid-row-gap: 0px;
-    padding: 20px 0 20px 80px;
+    padding: 20px 80px 20px 0;
+    align-items: center;
+    gap: 20px;
 }
 
 .secondSection h1{
     font-size: 30px;
 }
 
+.sec2text{
+    padding: 0 100px;
+}
+.about_img{
+    width: 360px;
+    height: 400px;
+    margin: 0;
+}
 .thirdSection {
     background-color: rgb(234, 192, 115);
     padding: 20px 0;
@@ -139,7 +149,13 @@ main {
     width: 718px;
     height: 100px;
     border-radius: 5px;
-    border: 1px solid rgb(222, 215, 215);
+    border: 1px solid rgb(255, 255, 255);
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
 }
 
 .sendBtn {
@@ -152,9 +168,18 @@ main {
     border: none;
     border-radius: 5px;
     color: white;
+    transition: 0.5s ease;
+}
+.sendBtn:is(:hover, :focus){
+    color: white;
+    background-color: #FCA002;
 }
 
 .location {
     background-color: rgb(245, 241, 241);
     text-align: center;
+}
+
+.map{
+    border: 0;
 }
