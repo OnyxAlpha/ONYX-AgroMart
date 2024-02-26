@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/AgroMartLogo.png";
 import styles from "./index.module.css";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
@@ -24,7 +25,7 @@ function Navbar() {
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item me-3">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                  <Link to='/'>Home</Link>
                 </a>
               </li>
               <li className="nav-item me-3">

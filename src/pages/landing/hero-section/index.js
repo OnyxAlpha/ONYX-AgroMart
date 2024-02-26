@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './index.module.css';
 import canned from '../../../assets/canned-hero.png'
+import { Link } from 'react-router-dom';
 
 export const HeroSection = () => {
   return (
@@ -49,7 +50,7 @@ export const HeroSection = () => {
             <h2>Great value deals</h2>
             <h1>On all Our Products</h1>
             <p>Save more with coupons and get up to 80% discount!</p>
-            <button className={styles.button}>Shop Now <i class="fa-solid fa-cart-shopping"></i></button>
+            <button className={styles.button}> <Link className={styles.link} to='/products'> Shop Now</Link> <i class="fa-solid fa-cart-shopping"></i></button>
            </div>
 
         </section>
