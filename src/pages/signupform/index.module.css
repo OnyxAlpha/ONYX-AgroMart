@@ -1,4 +1,4 @@
-.signForm{
+.signUpForm{
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.signInput1{
+.upInput1{
     padding-right: 300px;
     border-style:solid;
     padding-top: 10px;
@@ -16,7 +16,7 @@
     border-radius: 5px;
 }
 
-.signInput2{
+.upInput2{
     padding-right: 300px;
     border-style:solid;
     padding-top: 10px;
@@ -24,11 +24,31 @@
     border-radius: 5px;
 }
 
-.btn{
+
+
+.upInput3{
+    padding-right: 300px;
+    border-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+.upInput4{
+    padding-right: 300px;
+    border-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btnup{
     color:white ;
     text-align: center;
     background-color:rgb(27, 100, 27);
-    padding: 10px 200px 10px;
+    padding: 10px 230px 10px;
     border-radius: 5px;
 }
 
@@ -41,11 +61,10 @@
     border-radius: 5px;
 }
 
-.formCheck{
+.formBox{
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding-right: 190px;
+    padding-right: 160px;
 }
 
 

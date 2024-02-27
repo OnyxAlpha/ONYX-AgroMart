@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../signForm/index.module.css';
-import { Checkbox } from '@mui/material';
+import { FormControl, FormControlLabel, FormGroup } from '@mui/material';
+import {Checkbox} from '@mui/material';
 
 
 function SignForm() {
@@ -10,6 +11,8 @@ function SignForm() {
     const handleLogin = () => {
         // Handle the login logic here
     };
+
+    
 
     return (
         <div className={styles.signForm}>
@@ -46,10 +49,28 @@ function SignForm() {
                 onChange={e => setPassword(e.target.value)}
                 className={styles.signInput2} placeholder=" Password"
             /> <br />
-            <div className='checkbox'> 
-                <Checkbox value='' id='flexCheckDefault' label="Remember me" name='Remember me' />
-                <a href="!#">Forgot password?</a>
+            <div className={styles.formCheck}>
+            <div>
+            <FormControl>
+            <FormGroup>
+            <FormControlLabel
+                 value="Remember me"
+                 control={<Checkbox />}
+                 label="Remember me"
+                 labelPlacement="Remember me"
+            />
+             </FormGroup>
+             </FormControl>  
             </div>
+             
+             <div>
+             <a href="!#">Forgot password?</a>
+             </div>
+            
+            </div>
+           
+            
+           
                  {/* {//I had a challenge of aligning the checkbox content left//} */}
 
             <br />
