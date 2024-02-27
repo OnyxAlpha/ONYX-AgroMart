@@ -3,7 +3,7 @@
 }
 
 .footer{
-    background-color: rgb(63, 62, 62);
+    background-color: rgb(14, 61, 14);
 }
 
 .footer{
@@ -20,7 +20,7 @@
     width: 100%;
     text-align: left;
     margin-bottom: 2rem;
-    color: rgb(3, 36, 3);
+    color: white;
 }
 
 .footer-link_div{
@@ -33,7 +33,7 @@
 }
 
 .footer-link a {
-    color: wheat;
+    color: white;
     text-decoration: none;
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+;
 
 
 
@@ -70,7 +71,7 @@ const Footer=()=>{
                 <div className="footer-below">
                     <div className="footer-copyright">
                         <p>
-                           Copyright {new Date().getFullYear()} AgroMart. All rights reserved.
+                           Copyright {new Date().getFullYear()}. All rights reserved.
                         </p>
                         <div className="footer-below-link">
                             <a href="/terms"><div><p>Terms & Conditions</p></div></a>
