@@ -18,7 +18,7 @@ export const HeroSection = () => {
             <h1>On all Our Products</h1>
             <p>Save more with coupons and get up to 80% discount!</p>
            <div className={styles.corouselBtn}>
-           <button className={styles.button}> <Link className={styles.link} to='/products'> Shop Now</Link> <i class="fa-solid fa-cart-shopping"></i></button>
+           <button className={styles.button}> <Link className={styles.link} to='/products'> Sell Now</Link> <i class="fa-solid fa-cart-shopping"></i></button>
             <button className={styles.button}> <Link className={styles.link} to='/products'> Shop Now</Link> <i class="fa-solid fa-cart-shopping"></i></button>
            </div>
            </div>
@@ -29,21 +29,21 @@ export const HeroSection = () => {
     <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img className={styles.imgg} src={maize} alt="..."/>
+      <img src={maize} alt="..."/>
       <div className={styles.carousel_caption} class="carousel-caption d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img className={styles.imgg} src={cereals} alt="..." />
+      <img src={cereals} alt="..." />
       <div  className={styles.carousel_caption} class="carousel-caption d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img className={styles.imgg} src={crab} alt="..." />
+      <img src={crab} alt="..." />
       <div  className={styles.carousel_caption} class="carousel-caption d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>

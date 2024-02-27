@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./index.module.css";
 import pic from "../../../assets/canned-hero.png";
+import apple from "../../../assets/crops/fruits/apples.png";
+import cinnamon from "../../../assets/crops/spices/cinnamon.png";
+import carrots from "../../../assets/crops/vegetables/carrots.png"
 
 export const ProductsSection = () => {
   return (
@@ -10,7 +13,7 @@ export const ProductsSection = () => {
       <p>Our Popular Collection</p>
       <div className={styles.pro_container}>
         <div className={styles.pro}>
-          <img width="150" src={pic} alt="" />
+          <img width="150" src={apple} alt="" />
           <div className={styles.des}>
             <span>Product Name</span>
             <h5>Description</h5>
@@ -31,7 +34,7 @@ export const ProductsSection = () => {
         </div>
 
         <div className={styles.pro}>
-          <img width="150" src={pic} alt="" />
+          <img width="150" src={cinnamon} alt="" />
           <div className={styles.des}>
             <span>Product Name</span>
             <h5>Description</h5>
@@ -52,7 +55,7 @@ export const ProductsSection = () => {
         </div>
 
         <div className={styles.pro}>
-          <img width="150" src={pic} alt="" />
+          <img width="150" src={carrots} alt="" />
           <div className={styles.des}>
             <span>Product Name</span>
             <h5>Description</h5>

@@ -5,7 +5,7 @@ import { ShopContext } from '../../context/shop-context';
 import { CartItem } from './cart-item/cart-item';
 
 export const Cart = () => {
-    const {cartItems} = useContext(ShopContext)
+    const {cartItems, Add} = useContext(ShopContext)
 
   return (
     <>
