@@ -44,25 +44,37 @@
     /* background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(50, 73, 57, 0.5)); */
 }
 
+.corouselBtn{
+    display: flex;
+    padding: 0 20px;
+    gap: 20px;
+}
 
-.carousel {
+/* .carousel {
     width: 50%;
 }
 
 .carousel img{
     width: 50%;
     height: auto;
-}
-
+} */
+/* 
 .carousel h5, .carousel p{
     color: #090909;
     font-size: 1.5rem;
-}
+} */
 
 .carousel_caption{
     text-align: center;
 }
 
+
+.imgg{
+    /* width: 100px; */
+    background-image: linear-gradient(rgba(182, 38, 38, 0.5), rgba(0, 0, 0, 0.5)
+    );
+    background-blend-mode: multiply;
+}
 
 
 /* Media Query */
@@ -110,7 +122,7 @@
     }
     }
 
-
+  
 
     @media (max-width: 477px){
       .center {
