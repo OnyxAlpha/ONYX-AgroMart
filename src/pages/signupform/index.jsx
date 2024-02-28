@@ -26,40 +26,53 @@ function SignUpForm() {
 
             <p>Sign up with:</p>
             {/* //Icons of social media handles// */}
-
+        
+           {/*  <div>
+            </* FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faInstagram} />
+            
+            </div> */}
+           
             <br></br>
 
             <p>or:</p>
-
-            <FontAwesomeIcon icon={faUser} />
+             
+             <div>
+            <FontAwesomeIcon icon={faUser} size="2x" className="icons" />
             <input
                 type="text"
                 value={Name}
                 onChange={event => setName(event.target.value)}
                 className={styles.upInput1}
                 placeholder=" Your full Name"
-            />
+            /></div>
+            
             <br />
-             
-            <FontAwesomeIcon icon={faEnvelope} />
+            <div className={styles.fontIcon}>
+            <FontAwesomeIcon icon={faEnvelope} size="2x" className="icons" />
             <input
                 type="text"
                 value={Email}
                 onChange={event => setEmail(event.target.value)}
                 className={styles.upInput2} placeholder=" Enter your email"
-            /> <br />
+            /> </div>
             
-            <FontAwesomeIcon icon={faLock} />
+            <br />
+            <div> 
+            <FontAwesomeIcon icon={faLock} size="2x" className="icons"/>
             <input
                 type="text"
                 value={Password}
                 onChange={event => setPassword(event.target.value)}
                 className={styles.upInput3}
                 placeholder="Set Password"
-            />
+            /></div>
+           
             <br></br>
-
-            <FontAwesomeIcon icon={faKey} />
+             
+             <div>
+            <FontAwesomeIcon icon={faKey} size="2x" className="icons" />
             <input
                 type="text"
                 value={Passwords}
@@ -67,6 +80,8 @@ function SignUpForm() {
                 className={styles.upInput4}
                 placeholder="Repeat Password"
             />
+             </div>
+            
             <div className={styles.formBox}>
             <div>
             <FormControl>

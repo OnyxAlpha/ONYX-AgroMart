@@ -9,7 +9,7 @@
 }
 
 .upInput1{
-    padding-right: 300px;
+    padding-right: 250px;
     border-style:solid;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -17,7 +17,7 @@
 }
 
 .upInput2{
-    padding-right: 300px;
+    padding-right: 250px;
     border-style:solid;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -27,7 +27,7 @@
 
 
 .upInput3{
-    padding-right: 300px;
+    padding-right: 250px;
     border-style:solid;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -37,7 +37,7 @@
 
 
 .upInput4{
-    padding-right: 300px;
+    padding-right: 250px;
     border-style:solid;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -48,7 +48,7 @@
     color:white ;
     text-align: center;
     background-color:rgb(27, 100, 27);
-    padding: 10px 230px 10px;
+    padding: 10px 200px 10px;
     border-radius: 5px;
 }
 
@@ -77,3 +77,4 @@
 .checkbox{
     align-content: start;
 }
+
