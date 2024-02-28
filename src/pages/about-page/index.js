@@ -1,6 +1,11 @@
+import Navbar from "../navbar";
+
 function About (){
     return (
-        <p>Something</p>
+        <>
+        <Navbar/>
+            <p>Something</p>
+        </>
     )
 }
 

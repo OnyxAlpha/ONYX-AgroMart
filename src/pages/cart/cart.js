@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import styles from './index.module.css'
 import { PRODUCTS } from '../../products'
 import { ShopContext } from '../../context/shop-context';
+import Navbar from "../navbar";
 import { CartItem } from './cart-item/cart-item';
 
 export const Cart = () => {
@@ -9,6 +10,7 @@ export const Cart = () => {
 
   return (
     <>
+      <Navbar />
         <section className={styles.cart}>
             <div>
                 <h1>Your cart items</h1>

@@ -85,7 +85,7 @@ function Navbar() {
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
               <button class="btn btn-outline-success" type="submit">
-                login
+                <Link to='/signIn'>Login</Link>
               </button>
             </form>
           </div>

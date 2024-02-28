@@ -65,7 +65,7 @@ export const ProductsSection = () => {
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <h4>GHc $0.00</h4>
+                <h4>GHc 0.00</h4>
               </div>
               <button className={styles.button}> Buy Now</button>
               <a href="#" className={styles.cart}>

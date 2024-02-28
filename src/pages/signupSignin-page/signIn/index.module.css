@@ -1,91 +1,55 @@
-.signUpForm{
+.signForm{
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 100px;
     min-height: calc(100vh - 373px);
     align-items: center;
-    background-image:url("../../assets/banner/b14.png");
-    background-color: rgb(0, 0, 0);
+    background-color: black;
+    background-image: url("../../../assets/signImages/sign-in-bg.png");
 }
 
-
-.icons{
-    font-size: 1.5rem;
-}
-.formsBg{
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.socials{
+.formContainer{
+    /* width: 100%; */
+    background-color: rgb(134, 151, 151);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.signupIcons{
+.signipIcons{
     display: flex;
     gap: 20px;
 }
 
-.signupIcons i{
-    font-size: 2rem;
-}
-
-.upInput1{
-    padding-right: 250px;
+.signInput1{
+    padding-right: 300px;
     border-style:solid;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
-    width: 100%;
 }
 
-.upInput2{
-    padding-right: 250px;
+.signInput2{
+    padding-right: 300px;
     border-style:solid;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 100%;
     border-radius: 5px;
 }
 
-
-
-.upInput3{
-    padding-right: 250px;
-    border-style:solid;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.InputIcon{
-    display: flex;
-    gap: 10px;
-}
-
-.upInput4{
-    padding-right: 250px;
-    border-style:solid;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.btnup{
+.btn{
     color:white ;
     text-align: center;
     background-color:rgb(27, 100, 27);
     padding: 10px 200px 10px;
     border-radius: 5px;
+    border:none;
 }
 
 
@@ -95,12 +59,14 @@
     background-color:rgb(27, 100, 27);
     padding: 10px 40px 10px;
     border-radius: 5px;
+    border:none;
 }
 
-.formBox{
+.formCheck{
     display: flex;
     align-items: center;
-    padding-right: 160px;
+    gap: 10px;
+    padding-right: 190px;
 }
 
 
