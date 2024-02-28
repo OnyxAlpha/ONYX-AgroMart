@@ -1,11 +1,11 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Landing from "./pages/landing/landing";
-import About from "./pages/about-page/index";
 import Products from "./pages/products-page/index";
 import SignIn  from "./pages/signupSignin-page/signIn";
 import { ShopContextProvider } from "./context/shop-context";
-import { Cart } from "./pages/cart/cart";
+import Cart  from "./pages/cart/cart";
 import SignUp from "./pages/signupSignin-page";
+import About from './pages/about-page'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element= {<Landing />} />
-        <Route path="/about" element= {<About />} />
+        <Route path="/about" element={<About />} />
         <Route path="/products" element= {<Products />} />
         <Route path="/signin" element= {<SignIn />} />
         <Route path="/cart" element= {<Cart />} />

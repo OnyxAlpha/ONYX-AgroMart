@@ -1,10 +1,12 @@
-main {
-    margin-top: 100px;
-}
 
 .firstSection {
-    background-image: url(../../images/about-images/hero-img.png);
     height: 60vh;
+    background-image: linear-gradient(
+        rgba(46, 42, 38, 0.5),
+        rgba(21, 20, 20, 0.5)
+      ),
+      url("../../assets/aboutBggggg.png");
+    background-blend-mode: multiply;
     background-size: cover; 
     background-position: center;
 }
@@ -12,7 +14,7 @@ main {
 
 .firstSection h1{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
     font-size: 40px;
     color: white;
 }
@@ -34,6 +36,12 @@ main {
 
 .sec2text{
     padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec2text p{
+     font-size: 1.2rem;
 }
 .about_img{
     width: 360px;
@@ -41,14 +49,20 @@ main {
     margin: 0;
 }
 .thirdSection {
-    background-color: rgb(234, 192, 115);
-    padding: 20px 0;
-    margin: 20px 0;
+    /* background-color: rgb(234, 192, 115); */
+    /* padding: 40px 0; */
+    margin: 50px 0;
+}
+
+.location{
+    /* padding: 100px 0; */
+
 }
 
 .thirdSection h1 {
     text-align: center;
     font-size: 40px;
+    margin: 20px;
 }
 
 .points {
@@ -62,7 +76,7 @@ main {
 
 .points div {
     text-align: center;
-    background-color: white;
+    background-color: #FFB524;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding-top: 30px;
 }
@@ -122,11 +136,11 @@ main {
 }
 
 .contactSection {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 40px;
-        grid-row-gap: 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
 }
 
 .nameEmail {
@@ -178,6 +192,7 @@ textarea:focus{
 .location {
     background-color: rgb(245, 241, 241);
     text-align: center;
+    padding: 100px 0;
 }
 
 .map{

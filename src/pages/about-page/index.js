@@ -1,40 +1,33 @@
-import Navbar from "../navbar";
-
-function About (){
-    return (
-        <>
-        <Navbar/>
-            <p>Something</p>
-        </>
-    )
-}
-
-export default About;
-
-/* 
-    import styles from "./index.module.css"
-import trolley from "../../images/about-images/trolley.png"
-import apples from "../../images/about-images/apples.png";
-
-
+import React from "react";
+import styles from "./index.module.css"
+import trolley from '../../assets/about-images/trolley.png'
+import apples from "../../assets/crops/fruits/apples.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faTruck, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Navbar from "../navbar";
+import { NewsLetterSection } from "../landing/newsletter-section";
+import { FooterSection } from "../landing/footer-section";
 
 
-function About() {
+export default function About () {
     return (
        <main>
+        <Navbar />
         <section className={styles.firstSection}>
             <h1>About Us</h1>
         </section>
 
         <section className={styles.secondSection}>
             <div className={styles.sec2text}>
+                <div>
                 <h1>Welcome to AgroMart</h1>
                 <p>Here, we bridge the gap between buyers and sellers, enabling reach and access to a wide range of high quality agricultural products delivered directly at your doorstep.</p>
+                </div>
 
+                <div>
                 <h1>Our Mission</h1>
                 <p>Our mission is to offer users the access to agricultural products by providing sellers a platform to showcase their products and expand their market, whiles offering buyers the freshest produce online.</p>
+                </div>
             </div>
             <div><img src={trolley} className={styles.about_img} alt="a trolley" /></div>
         </section>
@@ -43,7 +36,7 @@ function About() {
             <h1>Why Choose us</h1>
 
             <div className={styles.points}>          
-               <div>
+               <div className={styles.points_card}>
                    <FontAwesomeIcon icon={faStar} className={styles.icon}/>
                    <h5>QUALITY ASSURANCE</h5>
                    <p>Only the freshest and highest quality products.</p>
@@ -62,7 +55,7 @@ function About() {
                </div>
             </div>
         </section>
-
+{/* 
         <section className={styles.fourthSection}>
             <div><img src={apples} alt="bunch of apples" /></div>
             
@@ -77,40 +70,58 @@ function About() {
             </div>
 
             <div><h1>x</h1></div>          
-        </section>
+        </section> */}
 
-        <section className={styles.contactUs}>
 
-            <div className={styles.contactSection}>
-                <div>
-                    <h1>Get In Touch</h1>
-                    <p>Interested in knowing more about us? Fill the form, we love to hear from you</p>
-                    <p>+233 55 222 2222</p>
-                    <p>info@agromart.com</p>
-                    <p>9:00am - 6:00pm, Mon - Sat</p>
-                </div>
+    <div  className={styles.location}>
 
-                <div>
+    <div class="container">
+  <div class="row">
+    <div class="col">
+        <div>
+            <h1>Get In Touch</h1>
+            <p>Interested in knowing more about us? Fill the form, we love to hear from you</p>
+            <p>+233 55 222 2222</p>
+            <p>info@agromart.com</p>
+            <p>9:00am - 6:00pm, Mon - Sat</p>
+        </div>
+    </div>
+    <div class="col">
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.474003742265!2d-0.15429542603023783!3d5.6443429327571355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b550b4b1287%3A0x5bfe4abfd88d302b!2sMEST%20Africa!5e0!3m2!1sen!2sgh!4v1708957868601!5m2!1sen!2sgh" width="700" height="350" className={styles.map} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    </div>
+  </div>
+</div>
+    </div>
+
+        {/* <section className={styles.contactUs}> */}
+
+            {/* <div className={styles.contactSection}> */}
+               
+
+                {/* <div>
                     <form>
                        <input type="text" id="name" name="name" placeholder="Enter name" className={styles.nameEmail}/>
                        <input type="email" id="email" name="email" placeholder="Enter email" className={styles.nameEmail}/><br/>
 
                        <input type="text" id="subject" name="subject" placeholder="Enter subject" className={styles.subject}/><br/>
-                       {/* <input type="text" id="msg" name="msg" placeholder="Message" /> */
-        //                <textarea name="" id=""
-        //                placeholder="Your Message"
-        //                className={styles.message}></textarea>
-        //             </form>
-        //             <button className={styles.sendBtn}>SEND</button>
-        //         </div>
-        //     </div>
+             <input type="text" id="msg" name="msg" placeholder="Message" />
+                        <textarea name="" id=""
+                       placeholder="Your Message"
+                        className={styles.message}></textarea>
+                     </form>
+                     <button className={styles.sendBtn}>SEND</button>
+                 </div> */}
+             {/* </div> */}
 
-        // </section>
+         {/* </section> */}
 
-        // <section className={styles.location}>
-        //     <h1>Location</h1>
-        //     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.474003742265!2d-0.15429542603023783!3d5.6443429327571355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b550b4b1287%3A0x5bfe4abfd88d302b!2sMEST%20Africa!5e0!3m2!1sen!2sgh!4v1708957868601!5m2!1sen!2sgh" width="400" height="350" className={styles.map} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        // </section>
-//         </main>
-//     );
-// }
+       
+         <NewsLetterSection/>
+
+         <FooterSection />
+    </main>
+     ); 
+    
+    }

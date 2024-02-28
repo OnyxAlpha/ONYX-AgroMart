@@ -1,15 +1,36 @@
-
 .cartItem {
-    width: 700px;
-    height: 250px;
+    height: auto;
     display: flex;
-  
     align-items: center;
+    position: relative;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
-    margin: 30px;
+    margin: 20px;
+    gap: 10px;
+    padding-right: 100px;
   }
   
+  .icondiv{
+    position: absolute; /* Position the icon absolutely */
+    top: 5px; /* Align to the top */
+    right: 10px; /* Align to the right */
+    padding: 10px; /* Optional: Add padding to the wrapper for spacing */
+  }
+
+  .icondiv i{
+    font-size: 1.2rem; /* Example font size */
+    color: #000; /* Example color */
+    padding: 6px;
+    border-radius: 50%;
+    transition: 0.5s ease;
+  }
+
+  .icondiv i:hover{
+    font-size: 1.5rem; /* Example font size */
+    color: #ffffff; /* Example color */
+    background-color: rgba(255, 0, 0, 0.814);
+  }
+
   .cartItem img {
     width: 200px;
   }
@@ -17,12 +38,20 @@
   .cartItem .description {
     width: 100%;
     font-size: 30px;
+    display: flex;
+    gap: 10px;
+  }
+  .countHandler{
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
   
-  .countHandler input {
+  .countHandler p {
     width: 40px;
     text-align: center;
     font-weight: bolder;
+    margin: 0;
   }
   
   .checkout button {

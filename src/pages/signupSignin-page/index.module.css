@@ -7,8 +7,11 @@
     padding-top: 50px;
     min-height: calc(100vh - 373px);
     align-items: center;
-    background-image:url("../../assets/banner/b14.png");
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.69),
+        rgba(6, 6, 6, 0.705)
+      ),
+      url("../../assets/formBg.jpg");
 }
 
 

@@ -11,8 +11,8 @@ export const FooterSection = () => {
       <footer className={styles.section}>
             <div className={styles.col}>
                 <img className={styles.logo} src={logo} alt="" />
-                <p><strong>Address:</strong> 6 Bono Lane, Tema, Greater Accra</p>
-                <p><strong>Phone:</strong> +233 54 235 6778/ +233 20 323 7315</p>
+                <p><strong>Address:</strong> Mest Africa, No.20 Aluguntugui Street </p>
+                <p><strong>Phone:</strong> +233 54 111 1111/ +233 20 200 0020</p>
                 <p><strong>Hours:</strong> 10: 00 - 18:00, Mon - Sat</p>
                 
                 <div className={styles.follow}>
@@ -56,7 +56,7 @@ export const FooterSection = () => {
             </div>
 
             <div className={styles.copyright}>
-                <p>© 2023, theMama Ecommerce</p>
+                <p>© 2024, AgroMart Ecommerce</p>
             </div>
         </footer>
     </>

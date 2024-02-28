@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import styles from './index.module.css';
 import { FormControl, FormControlLabel, FormGroup } from '@mui/material';
 import { Checkbox } from '@mui/material';
+import { Link } from "react-router-dom";
+import agroIMG from '../../../assets/AgroMartLogo.png'
 
 function SignIn() {
 
@@ -16,15 +18,17 @@ function SignIn() {
         <>
             <div className={styles.signForm}>
                 <div className={styles.formContainer}>
+                <img src={agroIMG}/>
+{/* 
                 <div>
                     <button onClick={handleLogin}
                         className={styles.btn2}
                     >Log In</button> <span ></span>
                     <button onClick={handleLogin}
                         className={styles.btn2}
-                    >Register</button>
-                </div>
-                <br></br>
+                    ></button>
+                </div> */}
+                {/* <br></br> */}
                 <p>Sign in with:</p>
                 <div className={styles.signipIcons}>
                     <i class="fa-brands fa-x-twitter"></i>
@@ -78,10 +82,14 @@ function SignIn() {
                 {/* {//I had a challenge of aligning the checkbox content left//} */}
 
                 <br />
+                
                 <button onClick={handleLogin}
                     className={styles.btn}
                 >Sign In</button>
-                    
+                    <div className={styles.signUps}>
+                    <p>Dont have an Account?</p>
+                    <Link to="/signup">Register</Link>
+                </div>
                 </div>
                 
             </div>

@@ -15,15 +15,15 @@ export const ProductsSection = () => {
         <div className={styles.pro}>
           <img width="150" src={apple} alt="" />
           <div className={styles.des}>
-            <span>Product Name</span>
-            <h5>Description</h5>
+            <span>Fresh Apples</span>
+            <h5>per kg</h5>
             <div className={styles.star_price_cart}>
               <div className={styles.star}>
                 <i class="fas fa-star star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <h4>GHc $0.00</h4>
+                <h4>GHc 50.00</h4>
               </div>
               <button className={styles.button}> Buy Now</button>
               <a href="#" className={styles.cart}>
@@ -36,15 +36,15 @@ export const ProductsSection = () => {
         <div className={styles.pro}>
           <img width="150" src={cinnamon} alt="" />
           <div className={styles.des}>
-            <span>Product Name</span>
-            <h5>Description</h5>
+            <span>Cinnamon</span>
+            <h5>per grams</h5>
             <div className={styles.star_price_cart}>
               <div className={styles.star}>
                 <i class="fas fa-star star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <h4>GHc $0.00</h4>
+                <h4>GHc 10.00</h4>
               </div>
               <button className={styles.button}> Buy Now</button>
               <a href="#" className={styles.cart}>
@@ -57,15 +57,15 @@ export const ProductsSection = () => {
         <div className={styles.pro}>
           <img width="150" src={carrots} alt="" />
           <div className={styles.des}>
-            <span>Product Name</span>
-            <h5>Description</h5>
+            <span>Carrots</span>
+            <h5>per kg</h5>
             <div className={styles.star_price_cart}>
               <div className={styles.star}>
                 <i class="fas fa-star star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <h4>GHc 0.00</h4>
+                <h4>GHc 50.00</h4>
               </div>
               <button className={styles.button}> Buy Now</button>
               <a href="#" className={styles.cart}>
@@ -78,15 +78,15 @@ export const ProductsSection = () => {
         <div className={styles.pro}>
           <img width="150" src={pic} alt="" />
           <div className={styles.des}>
-            <span>Product Name</span>
-            <h5>Description</h5>
+            <span>Mackerel</span>
+            <h5>per can</h5>
             <div className={styles.star_price_cart}>
               <div className={styles.star}>
                 <i class="fas fa-star star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <h4>GHc $0.00</h4>
+                <h4>GHc 15.00</h4>
               </div>
               <button className={styles.button}> Buy Now</button>
               <a href="#" className={styles.cart}>

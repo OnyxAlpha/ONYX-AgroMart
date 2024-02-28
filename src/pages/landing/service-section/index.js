@@ -34,7 +34,7 @@ export const ServiceSection = () => {
         </div>
         <div className={styles.fe_box}>
             <img src={f5} alt="" />
-            <h6>Happly Sell</h6>
+            <h6>Happily Sell</h6>
         </div>
         <div className={styles.fe_box}>
             <img src={f6} alt="" />
