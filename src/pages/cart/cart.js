@@ -81,7 +81,7 @@ function Cart () {
     <div className={styles.checkout}>
               <p>SubTotal GH&#8373; {SubtotalAmout}</p>
               <button> <Link className={styles.link} to='/products'> Continue Shopping</Link> </button>
-              <button > Check Out </button>
+              <button > <Link  className={styles.link} to='/billing'> Check Out</Link> </button>
               <button onClick={()=> clearCart()} className={styles.clearCart}> Clear Cart </button>
             </div>
     </div>

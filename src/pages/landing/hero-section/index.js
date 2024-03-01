@@ -23,7 +23,7 @@ export const HeroSection = () => {
             <p>Buy, sell and discover quality goods and amazing prizes.</p>
              
            <div className={styles.corouselBtn}>
-           <button className={styles.button}> <Link className={styles.link} to='/products'> Sell Now</Link> <i class="fa-solid fa-cart-shopping"></i></button>
+           <button className={styles.button}> <Link to='/dashboard' className={styles.link}> Sell Now</Link> <i class="fa-solid fa-cart-shopping"></i></button>
             <button className={styles.button}> <Link className={styles.link} to='/products'> Shop Now</Link> <i class="fa-solid fa-cart-shopping"></i></button>
            </div>
            </div>

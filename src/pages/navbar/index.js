@@ -53,16 +53,19 @@ useEffect(() => {
                 <ul class="dropdown-menu">
                   <li>
 
-                    <Link class="dropdown-item ">  Action</Link>
+                    <Link class="dropdown-item ">  Crops</Link>
                   </li>
                   <li>
-                  <Link class="dropdown-item">  Another Action</Link>
+                  <Link class="dropdown-item">  Livestock</Link>
                   </li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
-                   <Link class="dropdown-item"> Something else</Link>
+                   <Link class="dropdown-item"> Seafood</Link>
+                  </li>
+                  <li>
+                   <Link class="dropdown-item"> Processed</Link>
                   </li>
                 </ul>
               </li>

@@ -1,0 +1,48 @@
+.product-upload-container {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-upload-container h2 {
+    text-align: center;
+  }
+  
+  .product-upload-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-upload-container label {
+    margin-bottom: 5px;
+  }
+  
+  .product-upload-container input[type="text"],
+  .product-upload-container textarea,
+  .product-upload-container input[type="number"],
+  .product-upload-container input[type="file"],
+  .product-upload-container input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-upload-container textarea {
+    resize: vertical;
+  }
+  
+  .product-upload-container input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .product-upload-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }

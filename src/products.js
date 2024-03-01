@@ -29,7 +29,7 @@ export const PRODUCTS = [
         price: 15.99,
         weight: 'kg',
         productImage: products1,
-        category: "fruits"
+        category: "crops"
     },
     {
         id: 2,

@@ -7,6 +7,7 @@ import Cart  from "./pages/cart/cart";
 import SignUp from "./pages/signupSignin-page";
 import About from './pages/about-page'
 import { UserDashboard } from "./pages/user-dashboard";
+import BillingFormWithPayment from "./pages/billingPage/billingPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/cart" element= {<Cart />} />
         <Route path="/signup" element= {<SignUp />} />
         <Route path="/dashboard" element= {<UserDashboard />} />
+        <Route path="/billing" element= {<BillingFormWithPayment />} />
       </Routes>
     </Router>
     </ShopContextProvider>

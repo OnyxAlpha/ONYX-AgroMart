@@ -1,0 +1,34 @@
+.billingform {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .billingform h2 {
+    margin-top: 20px;
+  }
+  
+  .billingform input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .billingform button {
+    width: 100%;
+    padding: 10px;
+    background-color: #81C408;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .billingform button:hover {
+    background-color: #81C408;
+  }

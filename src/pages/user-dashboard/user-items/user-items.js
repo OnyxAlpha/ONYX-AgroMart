@@ -1,98 +1,35 @@
 import React from 'react'
 import { useState } from 'react';
+import styles from './index.module.css'
+import { useLocalStorage } from 'usehooks-ts';
 
-export const UserItems = () => {
-    let [userData, setUserData] = useState({
-        id: null,
-        itemname: '',
-        description: '',
-        productImage: '',
-        price: ''
-    });
-    
-    // State to hold all items data
-    const [allUsers, setAllItems] = useState([]);
-    
-     // Function to handle form submission
-     const handleSubmit = (event) => {
-      event.preventDefault();
-    
-       // Create new item object
-       const newUser = {
-        itemname: userData.itemname,
-        description: userData.description,
-        productImage: userData.productImage,
-        price: userData.price
-     }
-    
-    
-      // Add the new item to items array
-      setAllItems([...allUsers, newUser]);
-    
-      // Clear the form fields
-      setUserData({
-        itemname: '',
-        description: '',
-        productImage: '',
-        price: ''
-      });
-    
-    
-    }
-    
-    // Function to handle input changes
-    const handleChange = (event) => {
-      const { name, value } = event.target;
-      setUserData({
-          ...userData,
-          [name]: value
-      });
-    };
-    
+export const UserItems = (data) => {
+ console.log("locakkkl",data)
+ const { id, productName, productDescription, productPrice,productImage} = data;
+
+ const [addItemsList, setItemsList] = useLocalStorage("User_Item_List");
+
+ let removeItem = (itemId) =>{
+    const updatedItemsList = [addItemsList]
+    const result = updatedItemsList.filter((x)=> x.id !== itemId);
+    setItemsList(result);
+ }
     
       return (
         <>
-         <div>
-                <h2>User Registration Form</h2>
-                <form onSubmit={handleSubmit}>
-                    <input 
-                        type="text" 
-                        name="itemName" 
-                        placeholder="Item name" 
-                        value={userData.itemname} 
-                        onChange={handleChange} 
-                    />
-                    <textarea 
-                        type="text" 
-                        name="description" 
-                        placeholder="Description" 
-                        value={userData.description} 
-                        onChange={handleChange} 
-                    />
-                    <input 
-                        type="file" 
-                        name="Image" 
-                        placeholder="Image" 
-                        onChange={handleChange} 
-                    />
-                    <input 
-                        type="number" 
-                        name="price" 
-                        placeholder="Price" 
-                        value={userData.price} 
-                        onChange={handleChange}
-                    />
-                    <button type="submit">Register</button>
-                </form>
-                <h2>All Users</h2>
-                <ul>
-                    {allUsers.map((items, index) => (
-                        <li key={index}>
-                            item name: {items.productName}, description: {items.price}, image: {items.productImage} 
-                        </li>
-                    ))}
-                </ul>
+           <div className={styles.cartItem}>
+        <img src={productImage} />
+        <div className={styles.description}>
+            <p>
+                <b>{data.productName}</b>
+            </p>
+            <p>GH&#8373; {data.productPrice} </p>
             </div>
+
+            <div className={styles.icondiv}>
+            <i onClick={()=> removeItem(id)} class="fa-solid fa-xmark"></i>
+            </div>
+    </div> 
         </>
       )
 }
