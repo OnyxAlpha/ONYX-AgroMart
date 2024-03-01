@@ -18,7 +18,7 @@ function Products() {
   return (
     <>
       <Navbar />
-      <div class="container text-center">
+      <div class="container">
         <div class="row">
           <div class="col">
             <div className={styles.filterrSection} class="mt-5">

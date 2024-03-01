@@ -1,23 +1,20 @@
 import React from 'react'
-import { useState } from 'react';
-import styles from './index.module.css'
-import { useLocalStorage } from 'usehooks-ts';
 
-export const UserItems = (data) => {
- console.log("locakkkl",data)
- const { id, productName, productDescription, productPrice,productImage} = data;
+export const UserItems = () => {
+//  console.log("locakkkl",data)
+//  const { id, productName, productDescription, productPrice,productImage} = data;
 
- const [addItemsList, setItemsList] = useLocalStorage("User_Item_List");
+//  const [addItemsList, setItemsList] = useLocalStorage("User_Item_List");
 
- let removeItem = (itemId) =>{
-    const updatedItemsList = [addItemsList]
-    const result = updatedItemsList.filter((x)=> x.id !== itemId);
-    setItemsList(result);
- }
+//  let removeItem = (itemId) =>{
+//     const updatedItemsList = [addItemsList]
+//     const result = updatedItemsList.filter((x)=> x.id !== itemId);
+//     setItemsList(result);
+//  }
     
       return (
         <>
-           <div className={styles.cartItem}>
+           {/* <div className={styles.cartItem}>
         <img src={productImage} />
         <div className={styles.description}>
             <p>
@@ -29,7 +26,7 @@ export const UserItems = (data) => {
             <div className={styles.icondiv}>
             <i onClick={()=> removeItem(id)} class="fa-solid fa-xmark"></i>
             </div>
-    </div> 
+    </div>  */}
         </>
       )
 }

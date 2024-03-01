@@ -87,8 +87,8 @@ function SignIn() {
                     className={styles.btn}
                 >Sign In</button>
                     <div className={styles.signUps}>
-                    <p>Dont have an Account?</p>
-                    <Link to="/signup">Register</Link>
+                    <p>Don't have an account?</p>
+                    <Link to="/signup">Register here!</Link>
                 </div>
                 </div>
                 
