@@ -1,0 +1,118 @@
+.signUpForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 50px;
+    min-height: calc(100vh - 373px);
+    align-items: center;
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.69),
+        rgba(6, 6, 6, 0.705)
+      ),
+      url("../../assets/formBg.jpg");
+}
+
+
+.icons{
+    font-size: 1.5rem;
+}
+.formsBg{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.signupIcons{
+    display: flex;
+    gap: 20px;
+}
+
+.signupIcons i{
+    font-size: 2rem;
+}
+
+.upInput1{
+    padding-right: 250px;
+    border-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.upInput2{
+    padding-right: 250px;
+    border-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.upInput3{
+    padding-right: 250px;
+    border-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.InputIcon{
+    display: flex;
+    gap: 10px;
+}
+
+.upInput4{
+    padding-right: 250px;
+    border-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btnup{
+    color:white ;
+    text-align: center;
+    background-color:rgb(27, 100, 27);
+    padding: 10px 200px 10px;
+    border-radius: 5px;
+}
+
+
+.btn2{
+    color:white ;
+    text-align: center;
+    background-color:rgb(27, 100, 27);
+    padding: 10px 40px 10px;
+    border-radius: 5px;
+}
+
+.formBox{
+    display: flex;
+    align-items: center;
+    padding-right: 160px;
+}
+
+
+/* .formCheck a{
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+
+.checkbox{
+    align-content: start;
+}

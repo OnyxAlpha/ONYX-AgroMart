@@ -1,0 +1,40 @@
+nav{
+    background-color: #FFB524;
+    padding: 0 100px;
+}
+.img{
+    width: 110px;
+    height: 90px;
+}
+/* .navlinks{
+    display: flex;
+    align-items: center;
+} */
+
+li{
+    font-size: 1.2rem;
+    color: white !important;
+    /* text-decoration: none; */
+    font-weight: bold;
+    /* background-color: blue; */
+}
+
+.iconcontainer{
+    position: relative;
+}
+
+.iconWrapper p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.iconWrapper{
+    margin: 0;
+    padding: 0;
+    position: absolute; /* Position the icon absolutely */
+    top: -8px; /* Align to the top */
+    right: -42px; /* Align to the right */
+    /* padding: 10px; */
+    background-color:#81C408;
+    border-radius: 100px;
+}

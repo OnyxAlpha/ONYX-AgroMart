@@ -1,0 +1,200 @@
+
+.firstSection {
+    height: 60vh;
+    background-image: linear-gradient(
+        rgba(46, 42, 38, 0.5),
+        rgba(21, 20, 20, 0.5)
+      ),
+      url("../../assets/aboutBggggg.png");
+    background-blend-mode: multiply;
+    background-size: cover; 
+    background-position: center;
+}
+
+
+.firstSection h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+    color: white;
+}
+
+.secondSection {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 150px;
+    grid-row-gap: 0px;
+    padding: 20px 80px 20px 0;
+    align-items: center;
+    gap: 20px;
+}
+
+.secondSection h1{
+    font-size: 30px;
+}
+
+.sec2text{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec2text p{
+     font-size: 1.2rem;
+}
+.about_img{
+    width: 360px;
+    height: 400px;
+    margin: 0;
+}
+.thirdSection {
+    /* background-color: rgb(234, 192, 115); */
+    /* padding: 40px 0; */
+    margin: 50px 0;
+}
+
+.location{
+    /* padding: 100px 0; */
+
+}
+
+.thirdSection h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.points {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    padding: 10px 70px;
+    }
+
+.points div {
+    text-align: center;
+    background-color: #FFB524;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 30px;
+}
+
+.icon {
+    color: rgb(86, 190, 86);
+    font-size: 50px;
+    border: 2px solid;
+    border-radius: 45px;
+    padding: 15px;
+}
+
+.fourthSection {
+    background-color: rgb(86, 190, 86);
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 20px 0;
+}
+
+.subscribeSection {
+    justify-self: center;
+}
+
+.subscribeSection h1{
+    text-align: center;
+}
+
+.inputSection {
+    background-color: white;
+    width: 420px;
+    height: 25px;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+}
+
+.inputSection input {
+    width: 300px;
+    height: 23px;
+    border: none;
+}
+
+.inputSection button {
+    width: 110px;
+    height: 25px;
+    border: none;
+    background-color: rgb(234, 192, 115);
+}
+
+.contactUs {
+    background-color: rgb(245, 241, 241);
+    padding: 60px 40px;
+}
+
+.contactSection {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+}
+
+.nameEmail {
+    width: 350px;
+    margin: 0 10px 10px 0;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(222, 215, 215);
+}
+
+.subject {
+    width: 718px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(222, 215, 215);
+}
+
+.message {
+    width: 718px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+
+.sendBtn {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(86, 190, 86);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s ease;
+}
+.sendBtn:is(:hover, :focus){
+    color: white;
+    background-color: #FCA002;
+}
+
+.location {
+    background-color: rgb(245, 241, 241);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.map{
+    border: 0;
+}
