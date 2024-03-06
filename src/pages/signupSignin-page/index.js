@@ -5,6 +5,7 @@ import { Checkbox } from "@mui/material";
 import styles from "./index.module.css";
 import { faUser, faEnvelope, faKey, faLock } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
+import logo from '../../assets/AgroMartLogo.png'
 // import  from '@fortawesome/free-solid-svg-icons'
 
 function SignUp() {
@@ -24,7 +25,7 @@ function SignUp() {
             <div className={styles.signUpForm}>
                 <div className={styles.formsBg}>
                     <div className={styles.socials}>
-                   
+                   <img src={logo} alt="logo" />
                     <p>Sign up with:</p>
                     <div className={styles.signupIcons}>
                     <i class="fa-brands fa-x-twitter"></i>
@@ -103,7 +104,7 @@ function SignUp() {
 
                     <br />
                     <button onClick={handleLogin}
-                        className={`btn ${styles.btnup} `}
+                        className={styles.btnup}
                     ><Link to="/">Register</Link> </button>
                     <br></br>
                     <p className="text-center">Already have an account? <span></span>

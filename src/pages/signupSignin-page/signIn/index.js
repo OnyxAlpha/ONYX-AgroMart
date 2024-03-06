@@ -85,7 +85,7 @@ function SignIn() {
                 
                 <button onClick={handleLogin}
                     className={styles.btn}
-                >Sign In</button>
+                ><Link to='/'>Sign In</Link></button>
                     <div className={styles.signUps}>
                     <p>Don't have an account?</p>
                     <Link to="/signup">Register here!</Link>

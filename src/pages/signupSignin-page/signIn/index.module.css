@@ -75,6 +75,11 @@ i{
     background-color: #007a3f;
 }
 
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
 
 
 .btn2{

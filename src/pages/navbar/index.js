@@ -11,7 +11,7 @@ const [totalItems, getItemsTotal] = useState(0)
 
 let calculate = () =>{
   let cartValue = itemslist.map((x)=>x.item).reduce((x,y) => x+y,0)
-  getItemsTotal(cartValue)
+  getItemsTotal(Math.floor(cartValue))
 }
 
 useEffect(() => {
